@@ -100,11 +100,18 @@ body {
       align-items: center;
       font-size: 15px;
       font-weight: 500;
-      img {
-        transition: var(--main-transition);
-        padding: 0 0 10px 10px;
-        &:hover {
-          filter: brightness(2);
+      .shape{
+        &:hover span {
+          background-color: white;
+        }
+        span{
+          transition: var(main-transition);
+          width: 5px;
+          height: 5px;
+          display: inline-block;
+          margin-left: 3px;
+          background-color: #BBC0FF;
+          border-radius: 50%;
         }
       }
     }

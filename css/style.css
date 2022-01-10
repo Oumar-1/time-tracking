@@ -140,12 +140,17 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-.dashbored .catagory h4 img {
-  transition: var(--main-transition);
-  padding: 0 0 10px 10px;
+.dashbored .catagory h4 .shape:hover span {
+  background-color: white;
 }
-.dashbored .catagory h4 img:hover {
-  filter: brightness(2);
+.dashbored .catagory h4 .shape span {
+  transition: var(main-transition);
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  margin-left: 3px;
+  background-color: #BBC0FF;
+  border-radius: 50%;
 }
 .dashbored .active-time {
   padding: 20px 0px;

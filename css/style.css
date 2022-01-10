@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   --main-color: hsl(246, 80%, 60%);
   --Light-orange: hsl(15, 100%, 70%);
@@ -15,8 +11,12 @@ html {
   --Desaturated-blue: hsl(235, 45%, 61%);
   --Pale-Blue: hsl(236, 100%, 87%);
   --cards-hov: #34397b;
-  --main-transition: 0.4s;
+  --main-transition: 400ms;
   --main-rad: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -127,6 +127,7 @@ body {
   background-color: var(--Dark-blue);
   border-radius: var(--main-rad);
   padding: 30px 25px;
+  transition: var(--main-transition);
   cursor: pointer;
 }
 .dashbored .catagory:hover {

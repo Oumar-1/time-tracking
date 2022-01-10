@@ -89,6 +89,7 @@ body {
     background-color: var(--Dark-blue);
     border-radius: var(--main-rad);
     padding: 30px 25px;
+    transition: var(--main-transition);
     cursor: pointer;
     &:hover {
       background-color: var(--cards-hov);
